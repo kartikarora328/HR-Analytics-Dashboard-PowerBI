@@ -1,0 +1,67 @@
+# ==========================
+# Power BI / Data Project .gitignore
+# ==========================
+
+# --- System files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Windows / Mac hidden folders ---
+$RECYCLE.BIN/
+ehthumbs.db
+Icon?
+.Spotlight-V100
+.Trashes
+._*
+
+# --- Temporary / Cache files ---
+*.tmp
+*.temp
+*.bak
+*.log
+*.cache
+*.~lock.*
+
+# --- Office / Excel temporary files ---
+~$*
+*.xlk
+
+# --- Power BI specific ---
+*.pbit
+*.pbix.tmp
+*.pbix.backup
+*.pbix.autosave
+*.pbip
+*.pbix.[0-9]*
+*.json.backup
+
+# --- Data / Intermediate exports (optional to exclude large raw data) ---
+*.xlsx
+*.xlsm
+*.zip
+*.7z
+*.rar
+
+# --- Python or R scripts (if used inside Power BI) ---
+__pycache__/
+*.pyc
+*.rhistory
+*.RData
+
+# --- IDE / Editor files ---
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# --- GitHub / Version control ---
+.gitignore
+.gitmodules
+
+# --- Misc ---
+*.old
+*.bak
+*.orig
